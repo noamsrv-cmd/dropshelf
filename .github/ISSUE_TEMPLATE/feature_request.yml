@@ -1,0 +1,22 @@
+name: Feature request
+description: Propose a focused improvement to the temporary-shelf workflow.
+title: "[Idea]: "
+labels: [enhancement, needs-triage]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What everyday problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Describe the ideal workflow
+      description: Show the shortest path from intent to result.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What do you do today?

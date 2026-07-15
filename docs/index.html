@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#111118" />
+    <meta name="description" content="DropShelf is a beautiful, private temporary shelf for files, images, links, and text." />
+    <meta property="og:title" content="DropShelf — Keep it close. Use it anywhere." />
+    <meta property="og:description" content="A beautiful temporary shelf for anything on your computer." />
+    <meta property="og:image" content="assets/hero.png" />
+    <meta property="og:type" content="website" />
+    <title>DropShelf — A temporary shelf for anything</title>
+    <link rel="icon" href="assets/app-icon.png" />
+    <link rel="stylesheet" href="site.css" />
+  </head>
+  <body>
+    <header class="nav-wrap">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="brand" href="#top"><img src="assets/app-icon.png" alt="" /><span>DropShelf</span></a>
+        <div class="nav-links">
+          <a href="#features">Features</a>
+          <a href="#privacy">Privacy</a>
+          <a href="https://github.com/noamsrv-cmd/dropshelf">GitHub</a>
+          <a class="nav-download" href="https://github.com/noamsrv-cmd/dropshelf/releases/latest/download/DropShelf-Windows-1.0.0-x64.exe">Download</a>
+        </div>
+        <button class="mobile-menu" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero container">
+        <div class="hero-copy reveal">
+          <span class="kicker"><i></i> Local-first desktop utility</span>
+          <h1>Keep it close.<br /><em>Use it anywhere.</em></h1>
+          <p>DropShelf gives temporary files, images, links, and text a calm place to wait while you move between apps.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://github.com/noamsrv-cmd/dropshelf/releases/latest/download/DropShelf-Windows-1.0.0-x64.exe"><span>Download for Windows</span><b>↓</b></a>
+            <a class="button button-secondary" href="https://github.com/noamsrv-cmd/dropshelf"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .8a11.4 11.4 0 0 0-3.6 22.2c.6.1.8-.2.8-.6v-2.2c-3.4.7-4.1-1.4-4.1-1.4-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.6-1.4-5.6-6a4.7 4.7 0 0 1 1.2-3.2c-.1-.3-.5-1.6.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.9.1 3.2a4.7 4.7 0 0 1 1.2 3.2c0 4.6-2.8 5.7-5.6 6 .4.4.8 1.1.8 2.2v3.2c0 .4.2.7.8.6A11.4 11.4 0 0 0 12 .8Z" fill="currentColor"/></svg>View source</a>
+          </div>
+          <div class="trust-row"><span><i>✓</i>No account</span><span><i>✓</i>No cloud</span><span><i>✓</i>MIT licensed</span></div>
+        </div>
+        <div class="hero-visual reveal reveal-late">
+          <div class="hero-glow"></div>
+          <img class="screenshot screenshot-back" src="assets/screenshot-welcome.png" alt="DropShelf first-run screen" />
+          <img class="screenshot screenshot-front" src="assets/screenshot-shelf.png" alt="DropShelf showing a file, image, link, and text snippet" />
+          <div class="floating-chip chip-file"><span>PDF</span>Project brief.pdf</div>
+          <div class="floating-chip chip-private"><span>●</span>Local only</div>
+        </div>
+      </section>
+
+      <section class="marquee" aria-label="Supported content types">
+        <div><span>Files</span><i>◆</i><span>Folders</span><i>◆</i><span>Images</span><i>◆</i><span>Links</span><i>◆</i><span>Text</span><i>◆</i><span>Clipboard</span><i>◆</i><span>Files</span><i>◆</i><span>Folders</span><i>◆</i><span>Images</span></div>
+      </section>
+
+      <section id="features" class="section container">
+        <div class="section-heading reveal"><span class="kicker">The useful kind of simple</span><h2>One tiny tool.<br />Fewer tiny frustrations.</h2><p>Built around the moments between finding something and using it.</p></div>
+        <div class="bento">
+          <article class="feature feature-large reveal">
+            <div class="feature-copy"><span class="feature-number">01</span><h3>Drag in. Drag out.</h3><p>Drop files and folders onto the screen edge, then drag them into email, messages, forms, or another folder using native desktop behavior.</p></div>
+            <div class="drag-demo" aria-hidden="true"><span class="mini-file"><b>PDF</b><i>brief.pdf</i></span><span class="motion-path"></span><span class="mini-shelf"><img src="assets/app-icon.png" alt="" /></span></div>
+          </article>
+          <article class="feature feature-search reveal"><span class="feature-number">02</span><h3>Find it without hunting.</h3><p>Search titles, text, links, and paths. Filter by content type when the shelf gets busy.</p><div class="fake-search"><span>⌕</span><b>Search your shelf</b><kbd>⌘F</kbd></div></article>
+          <article class="feature feature-clean reveal"><span class="feature-number">03</span><h3>Temporary by design.</h3><p>Let unpinned items expire after an hour, day, or week. Removing them never touches the original file.</p><div class="expiry"><span>Project brief.pdf</span><i>23h left</i><b>●</b></div></article>
+          <article class="feature feature-platform reveal"><span class="feature-number">04</span><h3>Always within reach.</h3><p>Use the edge handle, tray icon, or one global keyboard shortcut from anywhere.</p><div class="keys"><kbd>Ctrl</kbd><b>+</b><kbd>Shift</kbd><b>+</b><kbd>Space</kbd></div></article>
+        </div>
+      </section>
+
+      <section id="privacy" class="privacy-section">
+        <div class="container privacy-grid">
+          <div class="privacy-copy reveal"><span class="kicker"><i></i> Privacy is the architecture</span><h2>Your shelf is<br />not our business.</h2><p>DropShelf has no backend, analytics, tracking pixel, or account system. It stores a small readable state file on your computer and references the files you explicitly add.</p><a href="https://github.com/noamsrv-cmd/dropshelf/blob/main/SECURITY.md">Read the security model <span>→</span></a></div>
+          <div class="privacy-card reveal reveal-late">
+            <div class="privacy-orbit"><img src="assets/app-icon.png" alt="" /><span class="orbit-ring ring-one"></span><span class="orbit-ring ring-two"></span><i class="orbit-dot dot-one"></i><i class="orbit-dot dot-two"></i></div>
+            <ul><li><span>✓</span><div><b>Local storage only</b><small>Nothing is uploaded or synchronized.</small></div></li><li><span>✓</span><div><b>Clipboard is opt-in</b><small>Automatic monitoring starts disabled.</small></div></li><li><span>✓</span><div><b>Originals stay untouched</b><small>Removing a shelf item only removes its reference.</small></div></li></ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section steps container">
+        <div class="section-heading centered reveal"><span class="kicker">A three-second habit</span><h2>It works the way you expect.</h2></div>
+        <div class="step-grid">
+          <article class="reveal"><span>1</span><h3>Open</h3><p>Touch the edge handle or use the shortcut.</p></article>
+          <article class="reveal"><span>2</span><h3>Drop</h3><p>Place anything you will need in a moment.</p></article>
+          <article class="reveal"><span>3</span><h3>Use</h3><p>Drag, copy, open, or reveal it from any app.</p></article>
+        </div>
+        <img class="settings-shot reveal" src="assets/screenshot-settings.png" alt="DropShelf settings for position, cleanup, and privacy" />
+      </section>
+
+      <section class="cta container reveal">
+        <div><img src="assets/app-icon.png" alt="" /><span class="kicker">Free and open source</span><h2>Make room for<br />the things in between.</h2><p>Download DropShelf and keep your desktop workflow moving.</p><div class="hero-actions centered-actions"><a class="button button-primary" href="https://github.com/noamsrv-cmd/dropshelf/releases/latest/download/DropShelf-Windows-1.0.0-x64.exe">Download DropShelf <b>↓</b></a><a class="button button-secondary" href="https://github.com/noamsrv-cmd/dropshelf">Star on GitHub</a></div></div>
+      </section>
+    </main>
+
+    <footer class="container footer"><a class="brand" href="#top"><img src="assets/app-icon.png" alt="" /><span>DropShelf</span></a><p>Keep it close. Use it anywhere.</p><div><a href="https://github.com/noamsrv-cmd/dropshelf">GitHub</a><a href="https://github.com/noamsrv-cmd/dropshelf/blob/main/SECURITY.md">Security</a><a href="https://github.com/noamsrv-cmd/dropshelf/blob/main/LICENSE">MIT License</a></div></footer>
+    <script src="site.js"></script>
+  </body>
+</html>

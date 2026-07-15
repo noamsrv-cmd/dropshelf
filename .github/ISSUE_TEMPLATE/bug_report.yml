@@ -1,0 +1,34 @@
+name: Bug report
+description: Tell us about something that is not working as expected.
+title: "[Bug]: "
+labels: [bug, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: Please remove personal paths, filenames, and clipboard contents from logs or screenshots.
+  - type: input
+    id: version
+    attributes:
+      label: DropShelf version
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Operating system
+      options: [Windows 11, Windows 10, macOS, Linux]
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: Include the exact steps and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional context
+      description: Desktop environment, display layout, file type, or a redacted screenshot can help.
