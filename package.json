@@ -2,7 +2,11 @@
   "name": "dropshelf",
   "version": "1.0.0",
   "description": "A beautiful temporary shelf for anything on your computer.",
-  "author": "DropShelf Contributors",
+  "desktopName": "DropShelf",
+  "author": {
+    "name": "Noam",
+    "email": "224560196+noamsrv-cmd@users.noreply.github.com"
+  },
   "license": "MIT",
   "private": false,
   "main": "dist-electron/electron/main.js",
@@ -75,6 +79,8 @@
     },
     "linux": {
       "icon": "build/icon.png",
+      "maintainer": "Noam <224560196+noamsrv-cmd@users.noreply.github.com>",
+      "syncDesktopName": true,
       "category": "Utility",
       "target": ["AppImage", "deb"]
     }
