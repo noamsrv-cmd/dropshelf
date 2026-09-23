@@ -27,16 +27,16 @@
     "react-dom": "^19.2.7"
   },
   "devDependencies": {
-    "@types/node": "^24.0.0",
+    "@types/node": "^26.6.2",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
     "@vitejs/plugin-react": "latest",
     "concurrently": "latest",
     "cross-env": "latest",
-    "electron": "^43.1.1",
+    "electron": "^44.4.3",
     "electron-builder": "^26.15.3",
     "typescript": "^7.0.2",
-    "vite": "^8.1.4",
+    "vite": "^8.3.0",
     "vitest": "latest",
     "wait-on": "latest"
   },
